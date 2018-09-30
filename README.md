@@ -20,13 +20,14 @@ These are meant to be Tours you can implement as is, if you like the tone of my 
 I am happy to take pull requests
 
 
-## Usage
+## Adding the Tours to your site
 
-To use Tours, you just import the .yml into your configuration.  There are multiple ways up the mountain and you should really read the docs on Configuration Management
+To use Tours, you just import the .yml into your configuration.  There are multiple ways up the mountain and you should really read the docs on [Configuration Management](https://www.drupal.org/docs/8/configuration-management/managing-your-sites-configuration).  
 
-### Import them all at once
+How _I_ do it is one at a time, using the Configuration Single Import found at /admin/config/development/configuration/single/import.  Simply select Tour as the Configuration type and paste in the contents of the file, and confirm import.  Quick and easy.
 
-Download them.  Move them to your config folder, then syncronize them into your config.  Or load them one at a time via the importer.  Full instructions on 
+You can also zip up all the .yml into a bundle and bulk import.  Or you can add to the file system and [synchronize](https://www.drupal.org/docs/8/configuration-management/workflow-using-the-drupal-ui).
+
 
 
 ### Building your own.
