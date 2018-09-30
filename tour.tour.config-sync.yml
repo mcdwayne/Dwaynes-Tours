@@ -17,8 +17,8 @@ tips:
     label: TITLE FOR THE TOUR BOX
     body: CONTENT FOR THE BOX
     weight: 2
-    attributes:
-      data-id: FIELD-ID
+    # attributes:
+    #   data-id: FIELD-ID
   config-continue:
     id: config-sync-continue
     plugin: text

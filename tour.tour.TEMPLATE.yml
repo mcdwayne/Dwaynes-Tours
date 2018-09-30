@@ -1,6 +1,6 @@
-id: <MODULE_PAGE>
-module: <module>
-label: <MODULE_PAGE>
+id: <MODULE_PAGE>  //the machine readable name, here I am suggesting should be identical to the human readable label
+module: <module>  //if outside of a module, you are likely in System
+label: <MODULE_PAGE> //the human readable name, here I am suggesting should be identical to the machine readable ID
 langcode: en
 routes:
   - route_name: FOUND AT /modules/<module>/<module>.routing.yml
@@ -18,7 +18,7 @@ tips:
     body: CONTENT FOR THE BOX
     weight: 2
     attributes:
-      data-id: FIELD-ID
+      data-id: FIELD-ID //Points to this fied 
   <module>-page-continue:
     id: <module>-page-continue
     plugin: text
