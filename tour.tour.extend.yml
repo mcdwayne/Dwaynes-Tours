@@ -19,12 +19,13 @@ tips:
     location: top
     weight: 2
     attributes:
-      data-id: system-modules
+      data-id: edit-modules-core
   system-module-filters:
     id: module-filters
     plugin: text
     label: 'Filter Modules'
     body: 'Type in part of the module name to only view modules that include that text in their name or description. This should make the list shorter and easier to find what you are looking for.'
+    location: top
     weight: 3
     attributes:
       data-id: edit-filters
@@ -33,6 +34,7 @@ tips:
     plugin: text
     label: 'Add Modules'
     body: 'If you want to install new modules, go here to download or upload the module files to the server for install.'
+    location: top
     weight: 4
     attributes:
       data-class: 'action-links a[data-drupal-link-system-path="admin/modules/install"]'
