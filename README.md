@@ -14,6 +14,7 @@ Yep.
 ## About this repo
 
 The [Tour module](https://www.drupal.org/docs/8/core/modules/tour/overview) is already in core and is enabled by default.  But other than the ["Edit Views" pages](https://www.drupal.org/docs/8/core/modules/views/give-a-custom-name-to-a-field-in-the-views-edit-screen) Tour none are included or turned on by default.  It is us as the site builder to implement these specific to our audience.  
+Also, very good idea to read the [User Interface Standards](https://www.drupal.org/docs/develop/user-interface-standards/tours) and the [Tour Text Standards](https://www.drupal.org/docs/develop/user-interface-standards/tour-text-standards)
 
 These are meant to be Tours you can implement as is, if you like the tone of my voice and trust me to explain things correctly.  What I hope is that you will use this repository to get a quick start on making your own Tours for your users.  
 

@@ -4,9 +4,10 @@ label: <MODULE_PAGE> //the human readable name, here I am suggesting should be i
 langcode: en
 routes:
   - route_name: FOUND AT /modules/<module>/<module>.routing.yml
+  - route_name: SOMETIMES REQUIRED SEE https://www.drupal.org/docs/8/api/tour-api/overview for more info
 tips:
   <module>-introduction:
-    id: introduction
+    id: Introduction
     plugin: text
     label: Introduction to the <MODULE_PAGE> Admin area
     body: This description should give a good overview of why you should be here 
@@ -18,7 +19,7 @@ tips:
     body: CONTENT FOR THE BOX
     weight: 2
     attributes:
-      data-id: FIELD-ID //Points to this fied 
+      data-id: FIELD-ID //Points to this field 
   <module>-page-continue:
     id: <module>-page-continue
     plugin: text

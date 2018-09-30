@@ -1,0 +1,28 @@
+id: config-import
+module: config 
+label: config-import 
+langcode: en
+routes:
+  - route_name: config.sync
+  - route_name: config.import_full
+tips:
+  config-import-introduction:
+    id: Introduction
+    plugin: text
+    label: Introduction to the Configuration Import Admin area
+    body: This description should give a good overview of why you should be here 
+    weight: 1
+  config-THING-YOU-ARE-EXPLAINING:
+    id: FIELD-ID
+    plugin: text
+    label: TITLE FOR THE TOUR BOX
+    body: CONTENT FOR THE BOX
+    weight: 2
+    attributes:
+      data-id: FIELD-ID //Points to this fied 
+  config-page-continue:
+    id: config-page-continue
+    plugin: text
+    label: Continuing on
+    body: What do you think would also be helpful?  Where can we learn more? the basic HTML elements works as such <a href='https://wikipedia.org'> Wikipedia </a>
+    weight: N
