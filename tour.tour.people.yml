@@ -1,0 +1,51 @@
+id: people
+module: user
+label: people
+langcode: en
+routes:
+  - route_name: entity.user.collection
+tips:
+  user-introduction:
+    id: introduction
+    plugin: text
+    label: Introduction to the People Admin area
+    body: "Yo yo yo, this here be one of the best places to be if you want to be all up in your user's business!"  
+    weight: 1
+  user-edit-current-pass:
+    id: edit-current-pass
+    plugin: text
+    label: 'Password Credentials'
+    body: 'The <em>current password</em> is needed for the user to set a new <em>password</em>.'
+    weight: 2
+    attributes:
+      data-id: edit-current-pass
+  user-edit-mail:
+    id: edit-mail
+    plugin: text
+    label: 'Login Credentials'
+    body: 'The <em>E-Mail address</em> has to be unique.'
+    weight: 3
+    attributes:
+      data-id: edit-mail
+  user-edit-status:
+    id: edit-status
+    plugin: text
+    label: 'The status'
+    body: 'The status determines if the user is able to login or not. It&lsquo;s useful in case that new accounts need administrator approval before being active. The default value for new accounts can be changed in the <a href="[site:url]admin/config/people/accounts#edit-registration-cancellation">account settings</a>.'
+    weight: 4
+    attributes:
+      data-id: edit-status
+  user-edit-roles:
+    id: edit-roles
+    plugin: text
+    label: 'The roles'
+    body: '<a href="[site:url]admin/people/roles">Roles</a> are needed to grant and revoke prermissions for the user to access different parts of the system.'
+    weight: 5
+    attributes:
+      data-id: edit-roles
+  user-edit-continue:
+    id: user-edit-continue
+    plugin: text
+    label: "Continuing on"
+    body: "Do not stop learning, never stop learning.  You stop learning I will come to your house read you <a href='https://wikipedia.org' style='color:#BADA55;'> Wikipedia </a> myself!" 
+    weight: 6

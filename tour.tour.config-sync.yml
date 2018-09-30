@@ -1,0 +1,27 @@
+id: config-sync
+module: config
+label: config-sync
+langcode: en
+routes:
+  - route_name: config.sync
+tips:
+  config-introduction:
+    id: Introduction
+    plugin: text
+    label: Introduction to the Synchronize Admin area
+    body: This description "should" give a 'good' overview of why "you" *should* be here  
+    weight: 1
+  config-THING-YOU-ARE-EXPLAINING:
+    id: FIELD-ID
+    plugin: text
+    label: TITLE FOR THE TOUR BOX
+    body: CONTENT FOR THE BOX
+    weight: 2
+    attributes:
+      data-id: FIELD-ID
+  config-continue:
+    id: config-sync-continue
+    plugin: text
+    label: Continuing on
+    body: What do you think would also be helpful?  Where can we learn more? the basic HTML elements works as such <br> <p> <a href='https://wikipedia.org'> Wikipedia </a>
+    weight: 3

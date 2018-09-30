@@ -1,0 +1,45 @@
+id: user-admin
+module: user
+label: User edit
+langcode: en
+routes:
+  - route_name: entity.user
+tips:
+  introduction:
+    id: introduction
+    plugin: text
+    label: Adding or editing a User
+    body: This form can be used to edit an existing container or add a new container to your site.<br>Containers are used to group forums together. For example, if you ran a Drupal forum you might create a 'Support' container and include forums for 'Installing Drupal' and 'Getting started' inside the 'Support' Container
+    weight: "1"
+  edit-current-pass:
+    id: edit-current-pass
+    plugin: text
+    label: 'Password Credentials'
+    body: 'The <em>current password</em> is needed for the user to set a new <em>password</em>.'
+    weight: 1
+    attributes:
+      data-id: edit-current-pass
+  edit-mail:
+    id: edit-mail
+    plugin: text
+    label: 'Login Credentials'
+    body: 'The <em>E-Mail address</em> has to be unique.'
+    weight: 1
+    attributes:
+      data-id: edit-mail
+  edit-status:
+    id: edit-status
+    plugin: text
+    label: 'The status'
+    body: 'The status determines if the user is able to login or not. It&lsquo;s useful in case that new accounts need administrator approval before being active. The default value for new accounts can be changed in the <a href="[site:url]admin/config/people/accounts#edit-registration-cancellation">account settings</a>.'
+    weight: 2
+    attributes:
+      data-id: edit-status
+  edit-roles:
+    id: edit-roles
+    plugin: text
+    label: 'The roles'
+    body: '<a href="[site:url]admin/people/roles">Roles</a> are needed to grant and revoke prermissions for the user to access different parts of the system.'
+    weight: 3
+    attributes:
+      data-id: edit-roles
