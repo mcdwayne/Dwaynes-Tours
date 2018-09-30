@@ -1,0 +1,54 @@
+id: extend
+module: system
+label: Extend
+langcode: en
+routes:
+  - route_name: system.modules_list
+tips:
+  system-introduction:
+    id: introduction
+    plugin: text
+    label: 'Introduction to the Extend Admin area'
+    body: 'Drupal contributed modules allow you to extend or change the functionality of your site. Through this admin panel, you can install and uninstall modules.'
+    weight: 1 
+  system-module-list:
+    id: module-list
+    plugin: text
+    label: Modules List
+    body: Here is the long list of all the modules available. Modules already installed have a checkbox checked and disabled. To install a module, check the box next to it and click "Install" at the bottom.
+    location: top
+    weight: 2
+    attributes:
+      data-id: system-modules
+  system-module-filters:
+    id: module-filters
+    plugin: text
+    label: 'Filter Modules'
+    body: 'Type in part of the module name to only view modules that include that text in their name or description. This should make the list shorter and easier to find what you are looking for.'
+    weight: 3
+    attributes:
+      data-id: edit-filters
+  system-module-add:
+    id: module-add
+    plugin: text
+    label: 'Add Modules'
+    body: 'If you want to install new modules, go here to download or upload the module files to the server for install.'
+    weight: 4
+    attributes:
+      data-class: 'action-links a[data-drupal-link-system-path="admin/modules/install"]'
+  system-module-updates:
+    id: module-updates
+    plugin: text
+    label: 'Update Modules'
+    body: 'Keep your site secure, fix bugs and add new features by updating your modules to the latest version.'
+    weight: 5
+    attributes:
+      data-class: 'tabs a[data-drupal-link-system-path="admin/modules/update"]'
+  system-module-uninstall:
+    id: module-uninstall
+    plugin: text
+    label: 'Uninstall Modules'
+    body: 'Remove modules if they are no longer needed.'
+    weight: 6
+    attributes:
+      data-class: 'tabs a[data-drupal-link-system-path="admin/modules/uninstall"]'
