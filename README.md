@@ -26,7 +26,7 @@ To use Tours, you just import the .yml into your configuration.  There are multi
 
 How _I_ do it is one at a time, using the Configuration Single Import found at /admin/config/development/configuration/single/import.  Simply select Tour as the Configuration type and paste in the contents of the file, and confirm import.  Quick and easy.
 
-You can also zip up all the .yml into a bundle and bulk import.  Or you can add to the file system and [synchronize](https://www.drupal.org/docs/8/configuration-management/workflow-using-the-drupal-ui).
+You can also zip up all the .yml in the 'tour' folder into a bundle and bulk import.  Or you can add to the file system and [synchronize](https://www.drupal.org/docs/8/configuration-management/workflow-using-the-drupal-ui).
 
 
 
