@@ -20,7 +20,7 @@ tips:
     body: CONTENT FOR THE BOX
     weight: 2
     attributes:
-      data-id: FIELD-ID //Points to this field 
+      data-id: FIELD-ID //Points to this field 'data-class' also works
   <module>-page-continue:
     id: <module>-page-continue
     plugin: text
