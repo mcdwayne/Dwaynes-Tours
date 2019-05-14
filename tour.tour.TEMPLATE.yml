@@ -15,6 +15,7 @@ tips:
   <module>-THING-YOU-ARE-EXPLAINING:
     id: FIELD-ID
     plugin: text
+    location: top
     label: TITLE FOR THE TOUR BOX
     body: CONTENT FOR THE BOX
     weight: 2
